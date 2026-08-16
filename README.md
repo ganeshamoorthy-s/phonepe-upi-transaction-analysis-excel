@@ -1,892 +1,200 @@
-\# 📊 PhonePe UPI Transaction Analysis Dashboard | Microsoft Excel
+PhonePe UPI Transaction Analysis Dashboard | Excel
+Project Overview
+<img width="1800" height="627" alt="image" src="https://github.com/user-attachments/assets/555d6de0-c4be-4af3-9f01-5e3bd32992d0" />
 
 
+<img width="1126" height="622" alt="image" src="https://github.com/user-attachments/assets/7e78c588-fc68-4ec2-a92a-8d0c96b1f8c7" />
 
 
+This project presents an interactive UPI Transaction Analysis Dashboard developed using Microsoft Excel.
 
+The project analyzes 9,467 UPI transactions worth ₹9.47 Cr covering the period from 2020 to July 2026.
 
+The objective is to transform raw transaction records into meaningful insights related to transaction behavior, customer payments, credit/debit activity, spending categories, transaction timing, and business trends.
 
-\## 📌 Project Overview
-
-
-
-This project is an \*\*UPI Transaction Analysis Dashboard developed in Microsoft Excel\*\* to analyze transaction behavior, customer payments, credit/debit activity, spending categories, transaction timing, and business-related patterns.
-
-
-
-The dataset covers transaction activity from \*\*2020 to July 2026\*\* and contains \*\*9,467 transactions\*\* with a total recorded transaction value of approximately \*\*₹9.47 Crore\*\*.
-
-
-
-The objective of this project is to transform raw transaction records into an \*\*interactive, business-focused analytical dashboard\*\* that can support faster monitoring and data-driven decision-making.
-
-
-
-\---
-
-
-
-\# 🎯 Business Problem
-
-
-
-Raw transaction data contains a large number of individual records, making it difficult to quickly understand:
-
-
-
-\- Overall transaction volume
-
-\- Total credit and debit activity
-
-\- Customer payment patterns
-
-\- Spending categories
-
-\- High-value transactions
-
-\- Monthly transaction trends
-
-\- Daily transaction behavior
-
-\- Weekday activity
-
-\- Time-based transaction patterns
-
-
-
-A business user should not have to manually inspect thousands of transactions to answer these questions.
-
-
-
-Therefore, this project converts the raw transaction data into a structured and interactive Excel dashboard.
-
-
-
-\---
-
-
-
-\# 🎯 Project Objectives
-
-
+Business Objective
 
 The main objectives of this project are:
 
+Analyze overall UPI transaction activity
+Monitor credit and debit transactions
+Understand customer payment patterns
+Identify spending categories
+Analyze high-value transactions
+Identify monthly and daily trends
+Understand weekday and time-based transaction patterns
+Support data-driven business decisions
+Key Metrics
+KPI	Value
+Total Transactions	9,467
+Total Credit	₹6.63 Cr
+Total Debit	₹2.85 Cr
+Total Transaction Value	₹9.47 Cr
+Average Transaction	₹10,009.42
+Highest Transaction	₹66,327
+Lowest Transaction	₹29
+Analysis Performed
+Credit and Debit Analysis
+
+Compared recorded credit and debit transaction values to understand transaction flow.
+
+Customer Payment Analysis
+
+Analyzed customer-related transactions to understand recorded customer payment activity.
+
+Category Analysis
+
+Analyzed transactions across different business and personal categories.
+
+Time Analysis
+
+Analyzed transaction activity by:
+
+Month
+Date
+Weekday
+Time of Day
+Hour
+High-Value Transaction Analysis
+
+Identified significant transaction values for additional monitoring.
+
+Hour and Day Heatmap
+
+Used a heatmap to identify transaction concentration across different days and hours.
+
+Transaction Categories
+
+Transactions were categorized into:
+
+Customer Payments
+Friends & Family
+Family Members
+Home & Groceries
+Food & Hotels
+Petrol & Diesel
+Recharge
+Shopping
+Small-Business Requirements
+Other Transactions
+Dashboard Features
+
+The Excel dashboard includes:
+
+KPI Cards
+Credit vs Debit Analysis
+Monthly Transaction Trends
+Daily Transaction Trends
+Weekday Analysis
+Time-of-Day Analysis
+Hour-Day Heatmap
+High-Value Transaction Analysis
+Year Filter
+Month Filter
+Date Filter
+Financial Year Filter
+Business Value
+
+The project converts raw transaction records into an interactive business dashboard that helps:
+
+Improve transaction visibility
+Reduce manual transaction review
+Identify transaction trends
+Monitor customer payments
+Analyze spending categories
+Identify high-value transactions
+Support faster data-driven decisions
+Data Preparation
+
+The dataset was prepared for analysis by:
+
+Reviewing transaction records
+Standardizing date and time fields
+Separating credit and debit transactions
+Categorizing transaction purposes
+Preparing analysis-ready fields
+Validating transaction values
+Structuring the data for dashboard analysis
+Data Limitation
+
+This project focuses on the available UPI transaction dataset.
 
+It should not be treated as a complete business accounting or profit-and-loss dataset because other payment channels may also be involved, such as:
 
-1\. Analyze overall UPI transaction activity.
+Bank transfers
+Google Pay
+Paytm
+Other UPI applications
+Cash transactions
+Other payment methods
 
-2\. Compare credit and debit transactions.
+Therefore, the project focuses on UPI Transaction Analysis rather than Complete Business Profit and Loss Analysis.
 
-3\. Identify customer payment patterns.
+Key Learning
 
-4\. Analyze transaction categories.
+A major learning from this project was that data interpretation depends on understanding the source and limitations of the dataset.
 
-5\. Identify high-value transactions.
+A Data Analyst should understand:
 
-6\. Understand monthly and daily transaction trends.
+What the data contains
+What the data does not contain
+What conclusions the data supports
+What conclusions should not be assumed
 
-7\. Identify high-activity weekdays.
+This helps ensure accurate financial and business interpretation.
 
-8\. Analyze transaction activity by time of day.
+Tools and Skills
 
-9\. Identify high-activity day/hour combinations.
+Microsoft Excel
 
-10\. Provide a consolidated dashboard for business monitoring.
+Data Cleaning
+Data Validation
+Data Categorization
+Pivot Tables
+Pivot Charts
+Slicers
+KPI Development
+Data Visualization
+Trend Analysis
+Time Analysis
+Heatmap Analysis
+Transaction Analysis
+Financial Data Analysis
+Business Insights
+Decision Support
+Project Structure
 
+Future Improvements
 
+Future versions could combine multiple payment sources such as:
 
-\---
+PhonePe
+Google Pay
+Paytm
+Bank Transactions
+Cash Transactions
 
+Additional analysis could include:
 
+Customer Segmentation
+Business vs Personal Transactions
+Customer Contribution Analysis
+Monthly Revenue Analysis
+Expense Analysis
+Transaction Frequency
+Profitability Analysis
+Power BI Dashboard
+Automated Reporting
+Conclusion
 
-\# 📊 Key Dashboard Metrics
+This project demonstrates how raw UPI transaction data can be transformed into an interactive Excel dashboard for business analysis.
 
+The analysis covers:
 
+Transaction Volume → Credit/Debit → Customer Payments → Categories → Time Patterns → Trends → Business Insights
 
-| KPI | Value |
+The project also demonstrates responsible data analysis by considering the data source, business context, and dataset limitations before making financial conclusions.
 
-|---|---:|
+Skills Demonstrated
 
-| Total Transactions | 9,467 |
-
-| Total Credit | ₹6,62,54,757 |
-
-| Total Debit | ₹2,85,04,392 |
-
-| Total Transaction Amount | ₹9,47,59,149 |
-
-| Average Transaction | ₹10,009.42 |
-
-| Highest Transaction | ₹66,327 |
-
-| Lowest Transaction | ₹29 |
-
-
-
-These KPIs provide a quick overview of the transaction activity before performing detailed analysis.
-
-
-
-\---
-
-
-
-\# 📈 Dashboard Analysis
-
-
-
-\## 1. Monthly Transaction Analysis
-
-
-
-The monthly analysis tracks transaction amounts across different months.
-
-
-
-\### Purpose
-
-
-
-To identify:
-
-
-
-\- High-activity months
-
-\- Low-activity months
-
-\- Changes in transaction behavior
-
-\- Monthly transaction patterns
-
-
-
-This can help understand how transaction activity changes over time.
-
-
-
-\---
-
-
-
-\## 2. Credit vs Debit Analysis
-
-
-
-The dashboard compares recorded credit and debit amounts.
-
-
-
-\### Recorded Credit
-
-
-
-\*\*₹6,62,54,757\*\*
-
-
-
-\### Recorded Debit
-
-
-
-\*\*₹2,85,04,392\*\*
-
-
-
-\### Observation
-
-
-
-The recorded credit amount is higher than the recorded debit amount in this dataset.
-
-
-
-This comparison helps understand the transaction flow captured in the available UPI records.
-
-
-
-\---
-
-
-
-\# 🏷️ 3. Transaction Category Analysis
-
-
-
-Transactions were categorized into practical business and personal transaction groups.
-
-
-
-\### Categories
-
-
-
-\- Customer Payments
-
-\- Friends \& Family
-
-\- Family Members
-
-\- Home \& Groceries
-
-\- Food \& Hotels
-
-\- Petrol \& Diesel
-
-\- Recharge
-
-\- Shopping
-
-\- Small-Business Requirements
-
-\- Other Transactions
-
-
-
-\### Purpose
-
-
-
-Categorization makes it easier to understand \*\*where transactions are coming from and where money is being spent\*\*.
-
-
-
-\---
-
-
-
-\# 👥 4. Customer Payment Analysis
-
-
-
-Customer payments are an important category in the transaction dataset.
-
-
-
-This analysis helps identify:
-
-
-
-\- Customer receipt activity
-
-\- Customer-related transaction volume
-
-\- Transaction amount patterns
-
-\- High-value customer transactions
-
-
-
-This provides useful visibility into recorded customer payment behavior.
-
-
-
-\---
-
-
-
-\# 💰 5. High-Value Transaction Analysis
-
-
-
-The dashboard identifies high-value transactions to understand unusual or significant transaction amounts.
-
-
-
-\### KPI
-
-
-
-\*\*Highest Recorded Transaction: ₹66,327\*\*
-
-
-
-High-value transaction analysis can help businesses identify transactions that require additional attention or review.
-
-
-
-\---
-
-
-
-\# 📅 6. Weekday Analysis
-
-
-
-Transaction amounts are analyzed across:
-
-
-
-\- Monday
-
-\- Tuesday
-
-\- Wednesday
-
-\- Thursday
-
-\- Friday
-
-\- Saturday
-
-\- Sunday
-
-
-
-\### Purpose
-
-
-
-To identify which days show relatively higher transaction activity.
-
-
-
-This can support better understanding of weekly transaction patterns.
-
-
-
-\---
-
-
-
-\# 🕐 7. Time-of-Day Analysis
-
-
-
-Transactions are grouped based on the time of the transaction.
-
-
-
-The analysis helps identify:
-
-
-
-\- Morning activity
-
-\- Afternoon activity
-
-\- Evening activity
-
-\- Night activity
-
-
-
-\### Business Value
-
-
-
-Understanding transaction timing can help identify periods of higher activity and improve operational monitoring.
-
-
-
-\---
-
-
-
-\# 🔥 8. Hour \& Day Heatmap
-
-
-
-The dashboard contains a heatmap based on:
-
-
-
-\*\*Day × Hour\*\*
-
-
-
-This provides a visual representation of transaction concentration.
-
-
-
-It helps identify:
-
-
-
-\- High-activity hours
-
-\- Low-activity hours
-
-\- High-activity weekdays
-
-\- Transaction concentration periods
-
-
-
-This is useful for understanding the relationship between \*\*time and transaction activity\*\*.
-
-
-
-\---
-
-
-
-\# 📆 9. Daily Transaction Trend
-
-
-
-The daily trend shows transaction amounts across individual dates.
-
-
-
-It helps identify:
-
-
-
-\- Transaction spikes
-
-\- High-value days
-
-\- Low-activity days
-
-\- Changes in daily transaction behavior
-
-
-
-\---
-
-
-
-\# 🎛️ 10. Interactive Dashboard Filters
-
-
-
-The dashboard provides filters to allow users to analyze specific periods.
-
-
-
-\### Filters
-
-
-
-\- Year
-
-\- Month
-
-\- Date
-
-\- Financial Year
-
-
-
-Users can move from an overall transaction view to a specific period without manually filtering the raw dataset.
-
-
-
-\---
-
-
-
-\# 🧹 Data Preparation
-
-
-
-The raw transaction records were prepared for analysis before building the dashboard.
-
-
-
-\### Data preparation activities included:
-
-
-
-\- Reviewing transaction records
-
-\- Standardizing transaction fields
-
-\- Separating credit and debit transactions
-
-\- Categorizing transaction purposes
-
-\- Preparing date and time fields
-
-\- Creating analysis-ready columns
-
-\- Checking transaction values
-
-\- Structuring the dataset for dashboard analysis
-
-
-
-\---
-
-
-
-\# 🛠️ Tools \& Technologies
-
-
-
-\## Microsoft Excel
-
-
-
-The project was developed using:
-
-
-
-\- Excel Tables
-
-\- Pivot Tables
-
-\- Pivot Charts
-
-\- Slicers
-
-\- KPI Cards
-
-\- Conditional Formatting
-
-\- Heatmaps
-
-\- Data Categorization
-
-\- Date \& Time Analysis
-
-\- Dashboard Design
-
-
-
-\---
-
-
-
-\# 📊 Dashboard Components
-
-
-
-The final dashboard contains:
-
-
-
-\### KPI Section
-
-
-
-\- Total Transactions
-
-\- Total Credit
-
-\- Total Debit
-
-\- Total Transaction Amount
-
-\- Average Transaction
-
-\- Highest Transaction
-
-\- Lowest Transaction
-
-
-
-\### Visualization Section
-
-
-
-\- Monthly Transaction Amount
-
-\- Transaction Amount by Weekday
-
-\- Credit vs Debit
-
-\- Transaction Amount by Time of Day
-
-\- Daily Transaction Trend
-
-\- Hour \& Day Heatmap
-
-
-
-\### Filter Section
-
-
-
-\- Year
-
-\- Month
-
-\- Date
-
-\- Financial Year
-
-
-
-\---
-
-
-
-\# 💼 Business Value
-
-
-
-The project converts thousands of raw transaction records into a \*\*single interactive dashboard\*\*.
-
-
-
-\### Business value delivered:
-
-
-
-\- Improved transaction visibility
-
-\- Faster monitoring of transaction activity
-
-\- Easier identification of trends
-
-\- Better understanding of customer payment patterns
-
-\- Faster category-level analysis
-
-\- Identification of high-value transactions
-
-\- Reduced need for manual transaction review
-
-\- Improved data-driven decision support
-
-
-
-The dashboard allows a user to understand transaction activity without manually reviewing individual records.
-
-
-
-\---
-
-
-
-\# 🔍 Data Interpretation \& Validation
-
-
-
-An important part of this project was understanding the \*\*source and limitations of the transaction data\*\*.
-
-
-
-The dataset represents transactions available through the analyzed UPI transaction records.
-
-
-
-It should not automatically be considered a complete financial accounting dataset.
-
-
-
-
-
-> \*\*UPI Transaction Behavior Analysis\*\*
-
-
-
-and should not be treated as a complete:
-
-
-
-> \*\*Business Profit \& Loss Statement\*\*
-
-
-
-\---
-
-
-
-\# ⚠️ Data Limitation
-
-
-
-The dashboard provides insights only from the transactions available in the dataset.
-
-
-
-Therefore:
-
-
-
-\### The dashboard can show:
-
-
-
-\- Recorded transaction volume
-
-\- Recorded credit activity
-
-\- Recorded debit activity
-
-\- Transaction categories
-
-\- Transaction timing
-
-\- Transaction trends
-
-
-
-\### The dashboard cannot independently prove:
-
-
-
-\- Complete business revenue
-
-\- Complete business expenses
-
-\- Net profit
-
-\- Net loss
-
-\- Total cash transactions
-
-\- Total transactions across every payment application
-
-
-
-A complete financial analysis would require data from all relevant payment channels and accounting records.
-
-
-
-\---
-
-
-
-\# 🧠 Key Data Analyst Learning
-
-
-
-One of the main lessons from this project was that \*\*data interpretation is as important as visualization\*\*.
-
-
-
-A data analyst should not only ask:
-
-
-
-> "What does the dashboard show?"
-
-
-
-They should also ask:
-
-
-
-> "Where did the data come from?"
-
-
-
-> "What does the dataset contain?"
-
-
-
-> "What information is missing?"
-
-
-
-> "Can this conclusion actually be supported by the data?"
-
-
-
-This approach helps prevent incorrect financial conclusions and improves the reliability of business insights.
-
-
-
-\---
-
-
-
-\# 📌 Key Insights
-
-
-
-The project provides visibility into:
-
-
-
-\### Transaction Activity
-
-Thousands of UPI transactions can be analyzed through a single dashboard.
-
-
-
-\### Credit \& Debit
-
-The dashboard clearly compares recorded credit and debit activity.
-
-
-
-\### Customer Payments
-
-Customer-related transactions can be separately analyzed to understand recorded receipt activity.
-
-
-
-\### Spending Behavior
-
-Categories such as groceries, food, fuel, recharge, shopping, and business requirements provide visibility into transaction purposes.
-
-
-
-\### Time Patterns
-
-Daily, monthly, weekday, hourly, and time-of-day analysis helps identify transaction concentration.
-
-
-
-\### High-Value Transactions
-
-Large transactions can be identified separately for additional review.
-
-
-
-\---
-
-
-
-\# 🚀 Future Improvements
-
-
-
-The project can be expanded by combining multiple financial data sources.
-
-
-
-\### Future Data Sources
-
-
-
-\- PhonePe
-
-\- Google Pay
-
-\- Paytm
-
-\- Bank transactions
-
-\- Cash transactions
-
-\- Accounting records
-
-
-
-\### Future Analysis
-
-
-
-\- Customer-level analysis
-
-\- Customer segmentation
-
-\- Business vs Personal classification
-
-\- Monthly revenue analysis
-
-\- Expense analysis
-
-\- Category contribution
-
-\- Transaction frequency
-
-\- Customer retention
-
-\- Profitability analysis
-
-\- Financial forecasting
-
-
-
-The next version could also be developed using \*\*Power BI or Python\*\* for automated reporting and advanced analytics.
-
-
-
+Data Analysis | Excel | Financial Data Analysis | UPI Transaction Analysis | Data Cleaning | Data Validation | KPI Dashboard | Pivot Tables | Data Visualization | Business Intelligence | Business Insights | Decision Support
